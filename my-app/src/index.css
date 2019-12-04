@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222222;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: #57A3D5;
+  color: 	#222222;
+  display: flex;
+  align-items: center;
+}
+
+.backgroundbox{
+  height: 858px;
+  width: 100%;
+  background-color: 	darkgray
+}
+
+.containerbox{
+  height: 450px;
+  width: 900px;
+  background-color: white;
+  /* position: absolute; */
+  justify-self: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.counterHolder{
+  display:flex;
+  /* align-content: right; */
+  /* justify-content: right; */
+}
+
+.displayedText{
+  margin-left:50px;
+  margin-bottom: 25px;
+ /* content: center; */
+}
+
+.nameClass{
+  margin-top: -50px;
+  text-decoration: underline;
+  text-decoration-color: cyan;
+}
+
+.favoriteClass{
+  margin:auto;
+}
+
+.positionCount{
+  margin-top:auto;
+  margin-left: auto;
+}
+
+.buttonHolder{
+  display:flex;
+  width: 100%;
+  height:45px;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.favoriteClass{
+  font-style: bold;
+  /* font-size: 15px; */
+}
+.moviesText{
+  font-size: 13px;
+  font-style: normal;
+}
+
+.listClass{
+  font-style: italic
+}
