@@ -1,5 +1,6 @@
 import React, {Component} from "react"
 import data from "./data.js"
+import Buttons from "./buttons.js"
 
 
 class Populate extends Component {
@@ -60,8 +61,9 @@ render(){
         <ul className= "listClass">3. {this.state.myArr[this.state.position].favoriteMovies[2]}</ul>
         </h4></div>
          <h1 className="buttonHolder">
-         <button onClick={this.onclickBack}>{"Previous >"}</button>
-         <button onClick={this.onclickForward}>{"Next >"}</button>
+         {/* <button onClick={this.onclickBack}>{"Previous >"}</button>
+         <button onClick={this.onclickForward}>{"Next >"}</button> */}
+         <Buttons next={this.onclickForward} previous={this.onclickBack} />
          </h1>
  </div>
  

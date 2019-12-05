@@ -2,15 +2,12 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Populate from "./populate.js"
-
+import Header from "./header.js"
 function App() {
-  return (
+  return (  
     <div>
-    <nav className="navbar">
-    <ul className="nav-links">
-      <ul className="nav-item">Home</ul>
-    </ul>
-  </nav>
+<Header />
+  
   
   <nav className="containerbox">
     <Populate />
